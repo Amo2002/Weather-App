@@ -55,4 +55,17 @@ function handleSearchSubmit(event) {
 let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", handleSearchSubmit);
 
+function displayForecast() {
+  <div class="weather-forecast-day">
+    <div class="weather-forecast-date">Mon</div>
+    <div class="weather-forecast-icon">⛅</div>
+    <div class="weather-forecast-temperature">
+      <div class="weather-forecast-temp">
+        <strong>17&deg;</strong>
+      </div>
+      <div class="weather-forecast-temp">12&deg;</div>
+    </div>
+  </div>;
+}
+
 searchCity("Paris");
