@@ -106,14 +106,14 @@ footer {
   display: block;
   margin: 0 auto;
 }
-.weather-forecast-temperature {
+.weather-forecast-temperatures {
   text-align: center;
   color: #f65282;
   margin-top: 10px;
   display: flex;
   justify-content: center;
 }
-.weather-forecast-temp {
+.weather-forecast-temperature {
   padding: 0 10px;
 }
 
